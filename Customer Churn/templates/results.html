@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+    <meta charset="UTF-8">
+    <title>display results</title>
+    <style>
+h1 {
+	
+	font-size: 40px;
+	text-align: center;
+}
+
+h3 {
+
+	line-height: 40px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.tab
+{	
+	background-color: aliceblue;
+    text-align: center;
+    border: 3px solid black;
+
+}
+.showTable{
+overflow: auto;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #CDF0EA;
+	margin: 20%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.titleres{
+	background-color:#418a9c;
+	padding: 3%;
+	
+}
+
+.resdiv{
+	background-color: white;
+	padding:5%;
+	
+	
+}
+
+</style>
+</head>
+<body>
+<div class="titleres" >
+	<h1> Customer Churn Prediction Results </h1>
+</div>
+<div class="resdiv">
+<div class="tab">
+<b><h3>Values entered are : </b> <br> </h3>
+{% for table in tables %}
+    <div class="showTable">{{ table|safe }}</div>
+{% endfor %}
+</div>
+
+<div class="prediction"> 
+	<hr>
+	<h3>
+    {{result}}
+	<hr>
+	
+	{{conf}}
+	<hr>
+	
+	Risk of Churning: {{churning_risk}}
+	<hr>
+
+   </h3>
+</div>
+
+</div>
+</body>
+</html>

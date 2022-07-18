@@ -1,5 +1,6 @@
 # Customer-Churn-Predictor
 A end to end project with EDA done on PowerBI, which predicts if the Customer would Churn or not by using Random Forests Classifier as its model deployed on Heroku
+Link to the website --> https://customerchurn-predictor.herokuapp.com/
 <br>
 <br>
 <img src="https://user-images.githubusercontent.com/93699671/179535019-b8266899-d056-4686-921c-52a0657fcffe.png" width=70%>
@@ -78,6 +79,8 @@ All the models are giving very good performance and their accuracy seems to be v
   <img src="https://user-images.githubusercontent.com/93699671/179524406-7df50350-63de-45ad-88bb-5320bb3f05f7.png" width=50%>
 
 ## Heroku Application
+<details>
+  <summary>Click here to expand (Website deployed on Heroku) </summary>
 <br>
 a) Index Page <br>
  <img src="https://user-images.githubusercontent.com/93699671/179575055-f989b57a-ebe1-4f47-a5b5-3b55d5f159d8.png" width=70%>
@@ -91,3 +94,4 @@ b) Predictions Page <br>
 c) Results Page <br>
  <img src="https://user-images.githubusercontent.com/93699671/179575633-03090c97-66a9-448d-bcd2-4d1f2979fd74.png" width=70%>
  
+</details>

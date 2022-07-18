@@ -11,12 +11,12 @@ app = Flask(__name__, template_folder='templates')
 model = pickle.load(open('model.pkl', 'rb'))
 
 
-@app.route('/')
+@app.route('/',methods=['GET', 'POST'])
 def index():
     return render_template("index.html")
 
 
-@app.route('/homepage.html')
+@app.route('/homepage.html',methods=['GET', 'POST'])
 def homepage():
     return render_template("homepage.html")
 

@@ -48,4 +48,8 @@ h) QnA
 
 
 ## Model Training Results
+
+All the models are giving very good performance and their accuracy seems to be very close to each other. After applying SMOTE ENN the models performance jumps up significantly. Random Forests are giving us one of the top model performances. Hence Random Forests model was used for predicting Customer Churn. 
+
+
 ![image](https://user-images.githubusercontent.com/93699671/179524406-7df50350-63de-45ad-88bb-5320bb3f05f7.png)

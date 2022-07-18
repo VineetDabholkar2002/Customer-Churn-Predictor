@@ -77,3 +77,6 @@ All the models are giving very good performance and their accuracy seems to be v
   <br>
   <img src="https://user-images.githubusercontent.com/93699671/179524406-7df50350-63de-45ad-88bb-5320bb3f05f7.png" width=50%>
 
+## Heroku Application
+<br>
+ <img src="https://user-images.githubusercontent.com/93699671/179418156-be10f0a0-c30b-43b6-8627-4aa31c11071f.png" width=70%>

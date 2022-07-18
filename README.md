@@ -84,15 +84,10 @@ a) Index Page <br>
  
  
 b) Predictions Page <br>
- <img src="https://user-images.githubusercontent.com/93699671/179418156-be10f0a0-c30b-43b6-8627-4aa31c11071f.png" width=70%>
- <br>
-
-
  <img src="https://user-images.githubusercontent.com/93699671/179575482-8bd8b908-a9ba-461d-bafa-5b5659ecfc93.png" width=70%>
 
 
  
 c) Results Page <br>
-
  <img src="https://user-images.githubusercontent.com/93699671/179575633-03090c97-66a9-448d-bcd2-4d1f2979fd74.png" width=70%>
  

@@ -2,8 +2,9 @@
 A end to end project with EDA done on PowerBI, which predicts if the Customer would Churn or not by using Random Forests Classifier as its model deployed on Heroku
 
 ## EDA using Power BI
-
-
+<details>
+  <summary>Click to expand!</summary>
+  
 a) Home 
 ![image](https://user-images.githubusercontent.com/93699671/179417937-f31e7566-b54f-4ef8-bcc8-58b2133228af.png)
 
@@ -27,6 +28,9 @@ g) Top segments which influence Customer Churn
 
 h) QnA
 ![image](https://user-images.githubusercontent.com/93699671/179418156-be10f0a0-c30b-43b6-8627-4aa31c11071f.png)
+  
+</details>
+
 
 ## EDA using Python 
 
@@ -35,7 +39,8 @@ h) QnA
 
 ## Conclusion from EDA
 
-
+<details>
+  <summary>Click to expand!</summary>
 1. Short term contracts have higher churn rates.
 2. Month to month contract is more likely opted by customers but has the greatest impact on the Churn rate (increases likelihood to churn by 6.31x).
 3. Customers with a two yearly contract have a very low churn rate.
@@ -45,11 +50,14 @@ h) QnA
 5. Customers who have Internet service as Fiber Optics as a service are more likely to Churn.
 6. Senior Citizens are more likely to churn.
 7. Additional features like Security, Backup, Device Protection and Tech Support make the customer less likely to churn.
-
+</details>
 
 ## Model Training Results
-
+<details>
+  <summary>Click to expand!</summary>
 All the models are giving very good performance and their accuracy seems to be very close to each other. After applying SMOTE ENN the models performance jumps up significantly. Random Forests are giving us one of the top model performances. Hence Random Forests model was used for predicting Customer Churn. 
 
 
 ![image](https://user-images.githubusercontent.com/93699671/179524406-7df50350-63de-45ad-88bb-5320bb3f05f7.png)
+
+</details>

@@ -29,9 +29,9 @@ d) Churners Profile
 <img src="https://user-images.githubusercontent.com/93699671/179417974-e5d0011f-040c-424e-bca1-3e0697cb0953.png" width=70%>
   
   
-e) Churn Risks for each customer (Predicted using Random Forests model)
+e) Churn Risks for each customer (Predicted using XGBoost model)
   <br>
-<img src="https://user-images.githubusercontent.com/93699671/179519421-95fef0d0-9bbb-4f35-8097-1762e8442536.png" width=70%>
+<img src="https://user-images.githubusercontent.com/93699671/183242005-e3168178-b1b0-47b5-ac87-8f4a49151358.png" width=70%>
   
   
 f) Key Influencers
@@ -73,11 +73,11 @@ h) QnA
 ## Model Training Results
 
 
-All the models are giving very good performance and their accuracy seems to be very close to each other. After applying SMOTE ENN the models performance jumps up significantly. Random Forests are giving us one of the top model performances. Hence Random Forests model was used for predicting Customer Churn. 
+All the models are giving very good performance and their accuracy seems to be very close to each other with XGBoost leading in terms of performance. After applying SMOTE ENN the models performance jumps up significantly. XGBoost is giving us one of the top model performances. Hence XGBoost model was used for predicting Customer Churn. 
 
 
   <br>
-  <img src="https://user-images.githubusercontent.com/93699671/179524406-7df50350-63de-45ad-88bb-5320bb3f05f7.png" width=50%>
+  <img src="https://user-images.githubusercontent.com/93699671/183241053-29724e1c-2a26-43cb-bf5e-90187c4c491b.png" width=50%>
 
 ## Heroku Application
 <details>
